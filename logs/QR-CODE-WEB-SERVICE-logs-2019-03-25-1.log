@@ -1,0 +1,716 @@
+[INFO ] 
+ 2019-03-25 01:00:18,133 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 5344 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:00:18,144 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:00:18,146 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:00:18,229 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 
+ 2019-03-25 01:00:18,230 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 
+ 2019-03-25 01:00:19,481 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2a0e77fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:00:19,520 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:00:19,945 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:00:19,989 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:00:20,003 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:00:20,005 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:00:20,014 
+ AprLifecycleListener.log() 
+- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\Users\BeauTifuL_WorlD\AppData\Local\Microsoft\WindowsApps;C:\Users\BeauTifuL_WorlD\AppData\Local\atom\bin;C:\Users\BeauTifuL_WorlD\AppData\Local\Programs\Microsoft VS Code\bin;D:\softwares and tools\Java\spring-tool-suite-4-4.1.1.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.1.RELEASE;;.]
+[INFO ] 
+ 2019-03-25 01:00:20,166 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:00:20,168 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 1937 ms
+[INFO ] 
+ 2019-03-25 01:00:20,656 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:00:20,908 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:00:20,941 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:00:21,240 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:00:21,245 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 3.647 seconds (JVM running for 5.416)
+[INFO ] 
+ 2019-03-25 01:00:25,967 
+ [/].log() 
+- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:00:25,968 
+ DispatcherServlet.initServletBean() 
+- Initializing Servlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:00:25,980 
+ DispatcherServlet.initServletBean() 
+- Completed initialization in 11 ms
+[INFO ] 
+ 2019-03-25 01:00:26,093 
+ QRCodeRestAPIController.readQRImage() 
+- Decoding The Imported QR Image: qr code test 2.PNG
+[INFO ] 
+ 2019-03-25 01:00:26,293 
+ QRCodeRestAPIController.readQRImage() 
+- The QR Image Has Been Successfully Decoded: Merchant(qrVersion=20, qrType=P, merchantCompanyName=Kamal, merchantCategory=Water Bill, bankAccount=10010245908764)
+[INFO ] 
+ 2019-03-25 01:01:04,123 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=8, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[INFO ] 
+ 2019-03-25 01:01:04,227 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:8*2:8*3:Kamal8*4:Water Bill*5:10599999555
+[INFO ] 
+ 2019-03-25 01:02:09,270 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:05:53,851 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 11012 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:05:53,864 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:05:53,867 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:05:53,942 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 
+ 2019-03-25 01:05:53,943 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 
+ 2019-03-25 01:05:55,286 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$24ea24bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:05:55,327 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:05:56,047 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:05:56,103 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:05:56,127 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:05:56,129 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:05:56,144 
+ AprLifecycleListener.log() 
+- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\Users\BeauTifuL_WorlD\AppData\Local\Microsoft\WindowsApps;C:\Users\BeauTifuL_WorlD\AppData\Local\atom\bin;C:\Users\BeauTifuL_WorlD\AppData\Local\Programs\Microsoft VS Code\bin;D:\softwares and tools\Java\spring-tool-suite-4-4.1.1.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.1.RELEASE;;.]
+[INFO ] 
+ 2019-03-25 01:05:56,413 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:05:56,415 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 2470 ms
+[INFO ] 
+ 2019-03-25 01:05:56,845 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:05:57,210 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:05:57,268 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:05:57,641 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:05:57,649 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 4.332 seconds (JVM running for 6.211)
+[INFO ] 
+ 2019-03-25 01:06:12,290 
+ [/].log() 
+- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:06:12,291 
+ DispatcherServlet.initServletBean() 
+- Initializing Servlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:06:12,307 
+ DispatcherServlet.initServletBean() 
+- Completed initialization in 14 ms
+[INFO ] 
+ 2019-03-25 01:06:12,533 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=4, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[INFO ] 
+ 2019-03-25 01:06:12,667 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:4*2:8*3:Kamal8*4:Water Bill*5:10599999555
+[INFO ] 
+ 2019-03-25 01:06:27,296 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:06:27,297 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:07:05,553 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:07:05,554 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:07:47,293 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=23434343, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:07:47,294 
+ QRCodeRestAPIController.generateQRImage() 
+- Fields are not as per the defined standard, it should be like [qrVersion = 2, qrType = "C", merchantCompanyName = "APS", merchantCategory="IT",PAN="123456789098765"]
+[INFO ] 
+ 2019-03-25 01:09:55,211 
+ QRCodeRestAPIController.readQRImage() 
+- Decoding The Imported QR Image: qr code test.PNG
+[INFO ] 
+ 2019-03-25 01:09:55,390 
+ QRCodeRestAPIController.readQRImage() 
+- The QR Image Has Been Successfully Decoded: Merchant(qrVersion=20, qrType=C, merchantCompanyName=Ahmad, merchantCategory=Water Bill, bankAccount=10010245908764)
+[INFO ] 
+ 2019-03-25 01:10:44,523 
+ QRCodeRestAPIController.readQRImage() 
+- Decoding The Imported QR Image: androidapp qr mage personal.PNG
+[ERROR] 
+ 2019-03-25 01:10:44,596 
+ [dispatcherServlet].log() 
+- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "APS-QR-v01"] with root cause
+-1[INFO ] 
+ 2019-03-25 01:14:13,445 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=23434343, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:14:13,446 
+ QRCodeRestAPIController.generateQRImage() 
+- Fields are not as per the defined standard, it should be like [qrVersion = 2, qrType = "C", merchantCompanyName = "APS", merchantCategory="IT",PAN="123456789098765"]
+[INFO ] 
+ 2019-03-25 01:15:32,002 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=Kamal8, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:15:32,003 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:15:58,648 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:15:58,649 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:16:14,722 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=a, merchantCategory=Water Bill, bankAccount=10599999555)
+[WARN ] 
+ 2019-03-25 01:16:14,722 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:16:39,341 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=sad, merchantCategory=Water Bill, bankAccount=899)
+[WARN ] 
+ 2019-03-25 01:16:39,342 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:17:00,114 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=9, qrType=8, merchantCompanyName=sad, merchantCategory=Water Bill, bankAccount=899)
+[WARN ] 
+ 2019-03-25 01:17:00,114 
+ QRCodeRestAPIController.generateQRImage() 
+- Fields are not as per the defined standard, it should be like [qrVersion = 2, qrType = "C", merchantCompanyName = "APS", merchantCategory="IT",PAN="123456789098765"]
+[INFO ] 
+ 2019-03-25 01:17:18,346 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=9, qrType=8, merchantCompanyName=sad, merchantCategory=Water Bill, bankAccount=8898798797899)
+[INFO ] 
+ 2019-03-25 01:17:18,403 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:9*2:8*3:sad*4:Water Bill*5:8898798797899
+[INFO ] 
+ 2019-03-25 01:17:38,148 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=sad, merchantCategory=Water Bill, bankAccount=8898798797899)
+[WARN ] 
+ 2019-03-25 01:17:38,149 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:29:10,560 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:35:12,427 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12696 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:35:12,428 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:35:12,428 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:35:45,427 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12368 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:35:45,477 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:35:45,478 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:35:45,618 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 
+ 2019-03-25 01:35:45,618 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 
+ 2019-03-25 01:35:47,241 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$add4ba8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:35:47,341 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:35:47,764 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:35:47,795 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:35:47,809 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:35:47,811 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:35:47,824 
+ AprLifecycleListener.log() 
+- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\Users\BeauTifuL_WorlD\AppData\Local\Microsoft\WindowsApps;C:\Users\BeauTifuL_WorlD\AppData\Local\atom\bin;C:\Users\BeauTifuL_WorlD\AppData\Local\Programs\Microsoft VS Code\bin;D:\softwares and tools\Java\spring-tool-suite-4-4.1.1.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.1.RELEASE;;.]
+[INFO ] 
+ 2019-03-25 01:35:47,975 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:35:47,976 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 2357 ms
+[INFO ] 
+ 2019-03-25 01:35:48,279 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:35:48,562 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:35:48,595 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:35:48,902 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:35:48,907 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 4.173 seconds (JVM running for 6.109)
+[INFO ] 
+ 2019-03-25 01:35:55,229 
+ [/].log() 
+- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:35:55,229 
+ DispatcherServlet.initServletBean() 
+- Initializing Servlet 'dispatcherServlet'
+[INFO ] 
+ 2019-03-25 01:35:55,242 
+ DispatcherServlet.initServletBean() 
+- Completed initialization in 12 ms
+[INFO ] 
+ 2019-03-25 01:35:55,516 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=0, qrType=8, merchantCompanyName=sad, merchantCategory=Water Bill, bankAccount=8898798797899)
+[WARN ] 
+ 2019-03-25 01:35:55,519 
+ QRCodeRestAPIController.generateQRImage() 
+- Merchant fields are not complete, fields are missing!
+[INFO ] 
+ 2019-03-25 01:37:13,289 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:37:14,045 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12368 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:37:14,046 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:37:14,047 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:37:14,401 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$add4ba8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:37:14,405 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:37:14,529 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:37:14,530 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:37:14,531 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:37:14,532 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:37:14,560 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:37:14,560 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 510 ms
+[INFO ] 
+ 2019-03-25 01:37:14,711 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:37:14,815 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:37:14,834 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:37:14,978 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:37:14,980 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 1.012 seconds (JVM running for 92.181)
+[INFO ] 
+ 2019-03-25 01:37:14,983 
+ ConditionEvaluationDeltaLoggingListener.onApplicationEvent() 
+- Condition evaluation unchanged
+[INFO ] 
+ 2019-03-25 01:38:17,036 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:38:17,629 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12368 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:38:17,629 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:38:17,630 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:38:18,126 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$add4ba8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:38:18,130 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:38:18,257 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:38:18,259 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:38:18,260 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:38:18,261 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:38:18,291 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:38:18,292 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 658 ms
+[INFO ] 
+ 2019-03-25 01:38:18,395 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:38:18,485 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:38:18,499 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:38:18,648 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:38:18,649 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 1.1 seconds (JVM running for 155.851)
+[INFO ] 
+ 2019-03-25 01:38:18,652 
+ ConditionEvaluationDeltaLoggingListener.onApplicationEvent() 
+- Condition evaluation unchanged
+[INFO ] 
+ 2019-03-25 01:39:18,124 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:39:18,740 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12368 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:39:18,741 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:39:18,743 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:39:19,149 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$add4ba8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:39:19,152 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:39:19,270 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:39:19,272 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:39:19,273 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:39:19,274 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:39:19,315 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:39:19,316 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 570 ms
+[INFO ] 
+ 2019-03-25 01:39:19,410 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:39:19,483 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:39:19,496 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:39:19,638 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:39:19,639 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 0.981 seconds (JVM running for 216.841)
+[INFO ] 
+ 2019-03-25 01:39:19,641 
+ ConditionEvaluationDeltaLoggingListener.onApplicationEvent() 
+- Condition evaluation unchanged
+[INFO ] 
+ 2019-03-25 01:39:53,478 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:39:53,985 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 12368 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-03-25 01:39:53,985 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 
+ 2019-03-25 01:39:53,985 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-03-25 01:39:54,269 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$add4ba8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-03-25 01:39:54,272 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-03-25 01:39:54,384 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-03-25 01:39:54,386 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:39:54,387 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-03-25 01:39:54,388 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 
+ 2019-03-25 01:39:54,410 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-03-25 01:39:54,411 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 421 ms
+[INFO ] 
+ 2019-03-25 01:39:54,509 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-03-25 01:39:54,594 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-03-25 01:39:54,614 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-03-25 01:39:54,757 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-03-25 01:39:54,758 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 0.846 seconds (JVM running for 251.96)
+[INFO ] 
+ 2019-03-25 01:39:54,760 
+ ConditionEvaluationDeltaLoggingListener.onApplicationEvent() 
+- Condition evaluation unchanged
+[INFO ] 
+ 2019-03-25 01:41:08,454 
+ SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown() 
+- Application shutdown requested.
+[INFO ] 
+ 2019-03-25 01:41:08,458 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'

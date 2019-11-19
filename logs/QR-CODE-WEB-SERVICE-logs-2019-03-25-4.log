@@ -1,0 +1,88 @@
+[INFO ] 
+ 2019-04-10 00:02:29,512 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-04-10 00:02:30,630 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 23672 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-04-10 00:02:30,631 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+[INFO ] 
+ 2019-04-10 00:02:30,633 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-04-10 00:02:31,480 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ff005717] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-04-10 00:02:31,483 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-04-10 00:02:31,485 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d9e8df4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-04-10 00:02:31,649 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-04-10 00:02:31,652 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-04-10 00:02:31,655 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-04-10 00:02:31,657 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 
+ 2019-04-10 00:02:31,725 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-04-10 00:02:31,726 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 1089 ms
+[INFO ] 
+ 2019-04-10 00:02:32,115 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-04-10 00:02:32,355 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-04-10 00:02:32,367 
+ EndpointLinksResolver.<init>() 
+- Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 
+ 2019-04-10 00:02:32,397 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-04-10 00:02:32,518 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-04-10 00:02:32,519 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 2.007 seconds (JVM running for 3837.894)
+[INFO ] 
+ 2019-04-10 00:02:32,523 
+ ConditionEvaluationDeltaLoggingListener.onApplicationEvent() 
+- Condition evaluation unchanged
+[INFO ] 
+ 2019-04-10 00:03:10,045 
+ SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown() 
+- Application shutdown requested.
+[INFO ] 
+ 2019-04-10 00:03:10,051 
+ ThreadPoolTaskExecutor.shutdown() 
+- Shutting down ExecutorService 'applicationTaskExecutor'
